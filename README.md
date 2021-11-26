@@ -1,6 +1,6 @@
 # intro-git
 
-A `xaringan` presentation to introduce [`git`](https://git-scm.com/) and [`GitHub`](https://github.com).
+A [`xaringan`](https://cran.r-project.org/web/packages/xaringan/index.html) presentation to introduce [`git`](https://git-scm.com/) and [`GitHub`](https://github.com).
 
 
 
