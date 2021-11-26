@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title> git &amp; GitHub</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="   Nicolas Casajus" />
+    <script src="assets/libs/header-attrs-2.11/header-attrs.js"></script>
+    <link href="assets/libs/font-awesome-5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="assets/libs/font-awesome-5.15.3/css/v4-shims.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: right, middle, title-slide
+
+# <br />git &amp; GitHub
+## <i>Code versioning &amp; Code sharing</i>
+### <br /><br /><br />Nicolas Casajus
+### .inst[November 2021]
+
+---
+
+
+
+## Introduction
+
+<i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;
+`git` and `GitHub` are **not** the same thing
+
+--
+
+- `git` - an open-source version control software
+- `GitHub` - a platform to host and share code using `git`
+
+--
+
+&lt;br /&gt;
+
+<i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;
+You do not need `GitHub` to use `git`
+&lt;br/&gt;
+<i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;
+But you cannot use `GitHub` without using `git`
+&lt;br/&gt;
+<i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;
+`GitHub` (and others) will make sharing your code with others easier
+
+--
+
+&lt;br /&gt;
+
+<i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;
+`GitHub` is the property of Microsoft
+&lt;br/&gt;
+<i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;
+Some alternatives: `GitLab`, `BitBucket`, `Gittea`, etc.
+
+--
+
+&lt;br /&gt;
+
+`GitHub` (and others) are called `remotes`
+
+
+---
+
+## Version control
+
+<i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;
+`git` is a program that takes **snapshots** of a directory (project) and
+helps navigating between those snapshots
+
+--
+
+- Archiving and documentation of development steps
+- Backtracking to previous versions
+- Handling of multiple versions
+- Collaborative development (using remotes)
+- Backup (using remotes)
+
+--
+
+Especially useful when making analyses, developing software, writing papers...
+
+--
+
+.center[
+![:scale 50.0%](assets/img/sys-decentralise.png)
+&lt;br/&gt;
+`git` is a decentralized system
+]
+
+
+
+---
+
+## Some definitions
+
+
+`repository` - a directory including a `.git/` subdirectory
+
+`commit` - a snapshot of the repository (a date, an author, a description)
+
+`working copy` - a version of the files of the repository on a computer
+
+--
+
+&lt;br /&gt;
+
+<i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;
+All `git` commands follow the same pattern:
+
+```sh
+git SUBCMD ARGS
+```
+
+
+---
+
+## Some useful git commands
+
+```sh
+## Initialize git for a project ----
+git init
+
+## Get the status of the versioning ----
+git status
+
+## Stage one file ----
+git add file_1
+
+## Stage several file(s) ----
+git add file_1 file_2 folder_a
+
+## Stage all changes in all files ----
+git add -A
+
+## Commit changes ----
+git commit -m "An explicit message that explains what has been done"
+
+## Get git history ----
+git log --oneline
+
+## Show previous version of a file ----
+git show commit_id:file
+
+## Get differences from last version ----
+git diff file
+```
+
+---
+
+## git and GitHub
+
+.center[
+![:scale 50.0%](assets/img/github.png)
+]
+
+
+---
+
+## git and GitHub
+
+
+```sh
+## Clone a repository from a remote ----
+git clone git@github.com:github_account/repo_name
+git clone https://github.com/github_account/repo_name
+
+## Send changes to a remote ----
+git push
+
+## Retrieve changes from a remote ----
+git pull
+```
+
+
+---
+
+## Integration with
+
+.center[
+![:scale 50.0%](assets/img/rstudio.png)
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="assets/libs/macros.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "4:3",
+"highlightStyle": "zenburn",
+"highlightLines": false,
+"countIncrementalSlides": false,
+"slideNumberFormat": "%current% / %total%"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
