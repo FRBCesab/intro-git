@@ -25,169 +25,372 @@ class: right, middle, title-slide
 
 ## Motivations
 
-...
-
-
----
-
-
-## Introduction
-
-<i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;
-`git` and `GitHub` are **not** the same thing
+.pull-left[
+![:scale 100.0%](assets/img/folder_1.png)
+]
 
 --
 
-- `git` - an open-source version control software
-- `GitHub` - a platform to host and share code using `git`
+.pull-right[
+- Which version of `analyses.R` is the final one?
+- What about `data.csv`?
+- What are the differences between versions?
+- It becomes difficult to find new versions names
+- And this folder: what a mess!
+]
 
 --
 
-&lt;br /&gt;
-
-<i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;
-You do not need `GitHub` to use `git`
-&lt;br/&gt;
-<i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;
-But you cannot use `GitHub` without using `git`
-&lt;br/&gt;
-<i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;
-`GitHub` (and others) will make sharing your code with others easier
+We need a tool that deals with versions for us
 
 --
 
-&lt;br /&gt;
-
-<i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;
-`GitHub` is the property of Microsoft
-&lt;br/&gt;
-<i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;
-Some alternatives: `GitLab`, `BitBucket`, `Gittea`, etc.
-
---
-
-&lt;br /&gt;
-
-`GitHub` (and others) are called `remotes`
-
-
----
-
-## Version control
-
-<i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;
-`git` is a program that takes **snapshots** of a directory (project) and
-helps navigating between those snapshots
-
---
-
-- Archiving and documentation of development steps
-- Backtracking to previous versions
-- Handling of multiple versions
-- Collaborative development (using remotes)
-- Backup (using remotes)
-
---
-
-Especially useful when making analyses, developing software, writing papers...
-
---
+&lt;br&gt;
 
 .center[
-![:scale 50.0%](assets/img/sys-decentralise.png)
-&lt;br/&gt;
-`git` is a decentralized system
+<i class="fa fa-hand-point-right normal" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;&amp;nbsp;
+`Version Control System`
+&amp;nbsp;&amp;nbsp; <i class="fa fa-hand-point-left normal" role="presentation" aria-label="hand-point-left icon"></i>
+
+[![:scale 20.0%](assets/img/logo-git.png)](https://git-scm.com/)
+]
+
+
+---
+
+
+## Version Control System
+
+.pull-left[
+![:scale 100.0%](assets/img/folder_2.png)
+]
+
+
+.pull-right[
+With a `VCS` like &amp;nbsp;<i class="fab fa-git" role="presentation" aria-label="git icon"></i> &amp;nbsp; you can:
+]
+
+
+---
+
+
+## Version Control System
+
+.pull-left[
+![:scale 100.0%](assets/img/folder_2.png)
+]
+
+
+.pull-right[
+With a `VCS` like &amp;nbsp;<i class="fab fa-git" role="presentation" aria-label="git icon"></i> &amp;nbsp; you can:
+- archive and document your previous versions;
+- keep an history of yours files
+- backtrack to previous versions;
+- handle multiple versions;
+- keep your working copy clean.
+]
+
+--
+
+<i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;
+Everything is managed by &amp;nbsp;<i class="fab fa-git" role="presentation" aria-label="git icon"></i> &amp;nbsp;and stored in 
+the hidden folder `.git/`
+&lt;br&gt;(specific to a project)
+
+--
+
+<i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;
+The content of this folder is modified with `git commands` or GUI ([`RStudio`](https://www.rstudio.com/))
+&lt;br&gt;(never by hand)
+
+
+---
+
+## A word of warning
+
+&lt;br /&gt;
+
+.center[
+<i class="fa fa-exclamation-triangle" role="presentation" aria-label="exclamation-triangle icon"></i> &amp;nbsp;&amp;nbsp;
+`Git` and `GitHub` are **not** the same thing
+&amp;nbsp;&amp;nbsp; <i class="fa fa-exclamation-triangle" role="presentation" aria-label="exclamation-triangle icon"></i>
+]
+
+&lt;br /&gt;
+
+--
+
+- `Git` - a free and open-source software
+- `GitHub` - a platform to host and share projects that use &amp;nbsp;<i class="fab fa-git" role="presentation" aria-label="git icon"></i>
+
+&lt;br /&gt;
+
+--
+
+In other words:
+
+- You do not need `GitHub` to use &amp;nbsp;<i class="fab fa-git" role="presentation" aria-label="git icon"></i>
+- But you cannot use `GitHub` without using &amp;nbsp;<i class="fab fa-git" role="presentation" aria-label="git icon"></i>
+
+&lt;br&gt;
+
+--
+
+In the language of &amp;nbsp;<i class="fab fa-git" role="presentation" aria-label="git icon"></i>  &amp;nbsp; `GitHub` and other 
+platforms (`GitLab`, `BitBucket`, etc.) are called **`remotes`**
+
+
+
+---
+
+
+
+## The added value of using remotes
+
+.pull-leftt[
+.center[
+![:scale 50.0%](assets/img/logo-github.png)
+]
+]
+
+.pull-rightt[
+- Collaborate with others on your project
+- Publish your project (reproducibility)
+- Backup your project
+- and many more...
+]
+
+
+---
+
+## Terminology
+
+.pull-left[
+&lt;dl&gt; 
+&lt;dt&gt;&lt;code&gt;Working copy&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;Current state of the directory (what you actually see)&lt;/dd&gt;&lt;br&gt;
+&lt;dt&gt;&lt;code&gt;Stage&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;Selection of files/folders to be added to the next commit&lt;/dd&gt;&lt;br&gt;
+&lt;dt&gt;&lt;code&gt;Staging area&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;Files/folders that will be added to the next commit&lt;/dd&gt;&lt;br&gt;
+&lt;dt&gt;&lt;code&gt;Commit&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;A snapshot of staged file(s)&lt;/dd&gt; 
+&lt;/dl&gt;
+]
+
+--
+
+.pull-right[
+&lt;dl&gt; 
+&lt;dt&gt;&lt;code&gt;Repository&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;The area with all the commits (i.e. the &lt;code&gt;.git/&lt;/code&gt; subdirectory)&lt;/dd&gt;&lt;br&gt;
+&lt;dt&gt;&lt;code&gt;Clone&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;Action to locally copy a remote repository&lt;/dd&gt;&lt;br&gt;
+&lt;dt&gt;&lt;code&gt;Push&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;Action to send your changes to the remote repository&lt;/dd&gt;&lt;br&gt;
+&lt;dt&gt;&lt;code&gt;Pull&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;Action to retrieve changes from the remote repository&lt;/dd&gt; 
+&lt;/dl&gt;
+]
+
+
+--
+
+&lt;br&gt;
+<i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;
+<i class="fab fa-git" role="presentation" aria-label="git icon"></i> &amp;nbsp;takes **snapshots** of a 
+project and helps to navigate between them
+
+---
+
+## Basic workflow
+
+&lt;br&gt;&lt;br&gt;
+.center[
+![:scale 85.0%](assets/img/git-workflow-0.png)
+]
+
+
+---
+
+## Basic workflow
+
+&lt;br&gt;&lt;br&gt;
+.center[
+![:scale 85.0%](assets/img/git-workflow-1.png)
+]
+
+
+---
+
+## Basic workflow
+
+&lt;br&gt;&lt;br&gt;
+.center[
+![:scale 85.0%](assets/img/git-workflow-2.png)
+]
+
+
+---
+
+## Basic workflow
+
+&lt;br&gt;&lt;br&gt;
+.center[
+![:scale 85.0%](assets/img/git-workflow-3.png)
+]
+
+---
+
+## Commits
+
+- Each point in the history is called a `commit`
+
+--
+
+&lt;br&gt;
+
+- A commit contains:
+
+  <i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> a `WHO`: the person who made the commit;
+
+  <i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> a `WHEN`: the date of the commit;
+
+  <i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> a `WHAT`: which files have been modified;
+
+  <i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> a `WHY`: the reason of the commit 
+(what has been done compared to the previous commit).
+
+
+---
+
+## Commits
+
+- The `WHO` must be set once by the user (globally or locally) by running:
+
+```sh
+## Configuration of git for all the projects ----
+$ git config --global user.name  "Jane Doe"
+$ git config --global user.email "jane.doe@mail.com"
+
+## Configuration of git just for this project ----
+$ git config --local user.name  "Jane Doe"
+$ git config --local user.email "jane.doe@mail.com"
+```
+
+&lt;br&gt;
+
+--
+
+- The `WHEN` is automatically managed by <i class="fab fa-git" role="presentation" aria-label="git icon"></i>
+
+&lt;br&gt;
+
+--
+
+- The `WHAT` corresponds to the file(s) manually staged by the user (`git add`)
+
+&lt;br&gt;
+
+--
+
+- The `WHY` is called the `commit message`: it must be short, informative, and use
+the imperative form
+
+
+
+---
+
+## Commits
+
+.figure[
+![:scale 50.0%](assets/img/xkcd-commit.png)
+&lt;br&gt;.caption[Source: https://xkcd.com/1296/]
 ]
 
 
 
 ---
 
-## Some definitions
+## Commits
 
+- When to commit?
 
-`repository` - a directory including a `.git/` subdirectory
-
-`commit` - a snapshot of the repository (a date, an author, a description)
-
-`working copy` - a version of the files of the repository on a computer
+.figure[
+![:scale 50.0%](assets/img/in-case-of-fire.png)
+&lt;br&gt;.caption[&amp;#169; 2015 [Louis-Michel Couture](https://github.com/louim/in-case-of-fire)]
+]
 
 --
 
-&lt;br /&gt;
+&lt;br&gt;
 
 <i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;
-All `git` commands follow the same pattern:
-
-```sh
-git SUBCMD ARGS
-```
-
+When you reach a milestone in your analysis
 
 ---
 
-## Some useful git commands
+## Useful Git commands
 
+<i class="fa fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> &amp;nbsp;
+All `git` commands follow the same pattern: `git SUBCMD [ARGS]`
+
+&lt;br&gt;
+
+--
+
+.pull-left[
 ```sh
-## Initialize git for a project ----
-git init
+## Initialize git for the project
 
-## Get the status of the versioning ----
-git status
+## Or clone a remote repository
 
-## Stage one file ----
-git add file_1
+## Print the status of the working copy
 
-## Stage several file(s) ----
-git add file_1 file_2 folder_a
+## Print the versioning history
 
-## Stage all changes in all files ----
-git add -A
+## Stage changes of one (or many) file
 
-## Commit changes ----
-git commit -m "An explicit message that explains what has been done"
+## Stage changes of all files
 
-## Get git history ----
-git log --oneline
+## Commit changes
 
-## Show previous version of a file ----
-git show commit_id:file
+## Send changes to a remote repo
 
-## Get differences from last version ----
-git diff file
+## Retrieve changes from a remote repo
 ```
-
----
-
-## git and GitHub
-
-.center[
-![:scale 50.0%](assets/img/github.png)
 ]
 
-
----
-
-## git and GitHub
-
-
+.pull-right[
 ```sh
-## Clone a repository from a remote ----
-git clone git@github.com:github_account/repo_name
-git clone https://github.com/github_account/repo_name
+$ git init
 
-## Send changes to a remote ----
-git push
+$ git clone &lt;URL&gt;
 
-## Retrieve changes from a remote ----
-git pull
+$ git status
+
+$ git log (--oneline)
+
+$ git add file_1 (file_2 folder_a)
+
+$ git add -A
+
+$ git commit -m "The commit message"
+
+$ git push
+
+$ git pull
 ```
+]
+
+and also: `diff` / `show` / `checkout` / `reset` / `merge` / `rebase` / `stash` ...
 
 
 ---
 
-## Integration with
+## Command lines or...
 
+&lt;br&gt;&lt;br&gt;
 .center[
 ![:scale 50.0%](assets/img/rstudio.png)
 ]

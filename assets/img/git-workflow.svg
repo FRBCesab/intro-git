@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="git-workflow-0.svg"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   inkscape:export-filename="/Users/nicolascasajus/GitHub/workshops/intro-git/assets/img/git-workflow-0.png"
+   inkscape:export-xdpi="300.05627"
+   inkscape:export-ydpi="300.05627"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:zoom="0.2430947"
+     inkscape:cx="392.85101"
+     inkscape:cy="787.75884"
+     inkscape:window-width="1920"
+     inkscape:window-height="969"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="63.867274"
+       y="174.17335"
+       width="228.08152"
+       height="56.887722"
+       id="rect25096" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-0" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-1" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-1-1" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-1-1-4" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-1-1-4-7" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-1-1-4-7-4" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-1-1-4-8" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-5" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-1-8" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-0-3" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-1-1-0" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-0-9" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-1-4" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-3" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-1-1-4-9" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1165" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1165-8" />
+    </marker>
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-3-8" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-3-5" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-3-8-4" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1165-3" />
+    </marker>
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-3-7" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1165-5" />
+    </marker>
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-3-8-40" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-56"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1165-85" />
+    </marker>
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-3-5-3" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-5-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1165-8-6" />
+    </marker>
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-1-1-0-0" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-0-3-9" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-1-8-2" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-5-4" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-1-1-4-8-9" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-1-1-4-7-4-2" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-5-7-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1165-8-6-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-56-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1165-85-9" />
+    </marker>
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-3-5-3-3" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-3-8-40-0" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-6-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1165-5-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-1-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1165-3-1" />
+    </marker>
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-3-8-4-9" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-3-7-8" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-1-1-0-00" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-0-3-97" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-1-8-1" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-5-7" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-1-1-4-8-4" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-1-1-4-7-4-5" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-5-7-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1165-8-6-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-56-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1165-85-2" />
+    </marker>
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-3-5-3-5" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-3-8-40-4" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-6-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1165-5-30" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-1-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1165-3-9" />
+    </marker>
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-3-8-4-4" />
+    <rect
+       x="63.867275"
+       y="174.17336"
+       width="228.08151"
+       height="56.887722"
+       id="rect25096-3-7-5" />
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3498"
+       transform="translate(0.60841823)"
+       inkscape:export-filename="/Users/nicolascasajus/GitHub/workshops/intro-git/assets/img/git-workflow-0.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:1.00838;stroke-miterlimit:1;stroke-opacity:0"
+         id="rect1478"
+         width="297.81778"
+         height="147.04584"
+         x="-1.017308"
+         y="-47.890953" />
+      <g
+         id="g3475">
+        <rect
+           style="fill:#91902f;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect44147"
+           width="205.98877"
+           height="128.33685"
+           x="4.4669099"
+           y="-38.536537"
+           rx="10"
+           ry="10" />
+        <g
+           id="g2789"
+           transform="translate(-4.0479599,-78.935218)">
+          <rect
+             style="fill:#7bbcb0;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect858-2"
+             width="60.308762"
+             height="106.57301"
+             x="81.354958"
+             y="56.043106" />
+          <text
+             xml:space="preserve"
+             transform="matrix(0.26458333,0,0,0.26458333,64.576803,14.097821)"
+             id="text25094-9"
+             style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-0);fill:#000000;fill-opacity:1;stroke:none"
+             x="77.451187"
+             y="0"><tspan
+               x="107.83008"
+               y="196.06976"
+               id="tspan14503"><tspan
+                 style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+                 id="tspan14501">Staging area</tspan></tspan></text>
+        </g>
+        <g
+           id="g2795"
+           transform="translate(-4.0479599,-78.935218)">
+          <rect
+             style="fill:#559c9e;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect858-7"
+             width="60.308762"
+             height="106.57301"
+             x="149.07204"
+             y="56.043106" />
+          <text
+             xml:space="preserve"
+             transform="matrix(0.26458333,0,0,0.26458333,131.90936,14.193071)"
+             id="text25094-3"
+             style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-1);fill:#000000;fill-opacity:1;stroke:none"
+             x="77.451187"
+             y="0"><tspan
+               x="89.595703"
+               y="196.06976"
+               id="tspan14507"><tspan
+                 style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+                 id="tspan14505">Local repository</tspan></tspan></text>
+        </g>
+        <g
+           id="g2783"
+           transform="translate(-4.0479599,-78.935218)">
+          <rect
+             style="fill:#a5dbc2;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect858"
+             width="60.308762"
+             height="106.57301"
+             x="13.637859"
+             y="56.043106" />
+          <text
+             xml:space="preserve"
+             transform="matrix(0.26458333,0,0,0.26458333,-3.2962219,14.193071)"
+             id="text25094"
+             style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096);fill:#000000;fill-opacity:1;stroke:none"
+             x="77.451187"
+             y="0"><tspan
+               x="100.37695"
+               y="196.06976"
+               id="tspan14511"><tspan
+                 style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+                 id="tspan14509">Working copy</tspan></tspan></text>
+        </g>
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,60.163508,-80.515215)"
+           id="text25094-3-9-5"
+           style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-1-1-4);fill:#ffffff;fill-opacity:1;stroke:none"
+           x="77.451187"
+           y="0"><tspan
+             x="139.11914"
+             y="196.06976"
+             id="tspan14515"><tspan
+               style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+               id="tspan14513">LOCAL</tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       id="g11789"
+       inkscape:export-filename="/Users/nicolascasajus/GitHub/workshops/intro-git/assets/img/git-workflow-2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <g
+         id="g3529"
+         transform="translate(0.60841465,138.57916)">
+        <rect
+           style="fill:none;fill-opacity:1;stroke:none;stroke-width:1.00838;stroke-miterlimit:1;stroke-opacity:0"
+           id="rect1478-6"
+           width="297.81778"
+           height="147.04584"
+           x="-1.0173044"
+           y="107.62157" />
+        <rect
+           style="fill:#91902f;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect44147-9-2"
+           width="70.383652"
+           height="128.4431"
+           x="220.9326"
+           y="116.92293"
+           rx="10"
+           ry="10" />
+        <rect
+           style="fill:#91902f;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect44147-2"
+           width="205.98877"
+           height="128.33685"
+           x="4.4669132"
+           y="116.97598"
+           rx="10"
+           ry="10" />
+        <g
+           id="g2807-5"
+           transform="translate(2.8312104,76.577301)">
+          <rect
+             style="fill:#559c9e;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect858-4-2"
+             width="60.308762"
+             height="106.57301"
+             x="223.13893"
+             y="56.043106" />
+          <text
+             xml:space="preserve"
+             transform="matrix(0.26458333,0,0,0.26458333,205.97624,14.062896)"
+             id="text25094-3-9-2"
+             style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-1-1-0);fill:#000000;fill-opacity:1;stroke:none"
+             x="77.451187"
+             y="0"><tspan
+               x="75.251953"
+               y="196.06976"
+               id="tspan14519"><tspan
+                 style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+                 id="tspan14517">Remote repository</tspan></tspan></text>
+        </g>
+        <g
+           id="g2789-7"
+           transform="translate(-4.047957,76.577301)">
+          <rect
+             style="fill:#7bbcb0;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect858-2-1"
+             width="60.308762"
+             height="106.57301"
+             x="81.354958"
+             y="56.043106" />
+          <text
+             xml:space="preserve"
+             transform="matrix(0.26458333,0,0,0.26458333,64.576803,14.097821)"
+             id="text25094-9-5"
+             style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-0-3);fill:#000000;fill-opacity:1;stroke:none"
+             x="77.451187"
+             y="0"><tspan
+               x="107.83008"
+               y="196.06976"
+               id="tspan14523"><tspan
+                 style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+                 id="tspan14521">Staging area</tspan></tspan></text>
+        </g>
+        <g
+           id="g2795-2"
+           transform="translate(-4.047957,76.577301)">
+          <rect
+             style="fill:#559c9e;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect858-7-1"
+             width="60.308762"
+             height="106.57301"
+             x="149.07204"
+             y="56.043106" />
+          <text
+             xml:space="preserve"
+             transform="matrix(0.26458333,0,0,0.26458333,131.90936,14.193071)"
+             id="text25094-3-1"
+             style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-1-8);fill:#000000;fill-opacity:1;stroke:none"
+             x="77.451187"
+             y="0"><tspan
+               x="89.595703"
+               y="196.06976"
+               id="tspan14527"><tspan
+                 style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+                 id="tspan14525">Local repository</tspan></tspan></text>
+        </g>
+        <g
+           id="g2783-0"
+           transform="translate(-4.047957,76.577301)">
+          <rect
+             style="fill:#a5dbc2;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect858-1"
+             width="60.308762"
+             height="106.57301"
+             x="13.637859"
+             y="56.043106" />
+          <text
+             xml:space="preserve"
+             transform="matrix(0.26458333,0,0,0.26458333,-3.2962219,14.193071)"
+             id="text25094-8"
+             style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-5);fill:#000000;fill-opacity:1;stroke:none"
+             x="77.451187"
+             y="0"><tspan
+               x="100.37695"
+               y="196.06976"
+               id="tspan14531"><tspan
+                 style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+                 id="tspan14529">Working copy</tspan></tspan></text>
+        </g>
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,60.163511,74.997304)"
+           id="text25094-3-9-5-7"
+           style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-1-1-4-8);fill:#ffffff;fill-opacity:1;stroke:none"
+           x="77.451187"
+           y="0"><tspan
+             x="139.11914"
+             y="196.06976"
+             id="tspan14535"><tspan
+               style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+               id="tspan14533">LOCAL</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,208.94625,74.997304)"
+           id="text25094-3-9-5-4-6"
+           style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-1-1-4-7-4);fill:#ffffff;fill-opacity:1;stroke:none"
+           x="77.451187"
+           y="0"><tspan
+             x="128.0332"
+             y="196.06976"
+             id="tspan14539"><tspan
+               style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+               id="tspan14537">REMOTE</tspan></tspan></text>
+      </g>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.53996;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-6)"
+         d="M 244.43388,345.87621 H 50.738873"
+         id="path976-9" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-1)"
+         d="m 192.16612,321.57564 h 50"
+         id="path976-8" />
+      <g
+         id="g4603"
+         transform="translate(1.0583333,-1.427299)">
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2617-6"
+           width="43.819695"
+           height="12.237998"
+           x="192.66599"
+           y="304.27167"
+           rx="5"
+           ry="5" />
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,167.47263,260.86966)"
+           id="text25094-5-0"
+           style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-3-8-4);fill:#ffffff;fill-opacity:1;stroke:none"
+           x="77.451187"
+           y="0"><tspan
+             x="151.82227"
+             y="196.06976"
+             id="tspan14543"><tspan
+               style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+               id="tspan14541">Push</tspan></tspan></text>
+      </g>
+      <g
+         id="g4570"
+         transform="translate(-0.33246145)">
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2617-3"
+           width="43.819695"
+           height="12.237998"
+           x="120.29538"
+           y="352.09909"
+           rx="5"
+           ry="5" />
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,95.227593,308.59555)"
+           id="text25094-5-9"
+           style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-3-7);fill:#ffffff;fill-opacity:1;stroke:none"
+           x="77.451187"
+           y="0"><tspan
+             x="114.32227"
+             y="196.06976"
+             id="tspan14547"><tspan
+               style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+               id="tspan14545">Clone / Pull</tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5809"
+       transform="translate(59.444881,13.289391)"
+       inkscape:export-filename="/Users/nicolascasajus/GitHub/workshops/intro-git/assets/img/git-workflow-1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:1.00838;stroke-miterlimit:1;stroke-opacity:0"
+         id="rect1478-6-9"
+         width="297.81778"
+         height="147.04584"
+         x="-59.853771"
+         y="85.865494" />
+      <rect
+         style="fill:#91902f;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect44147-2-1"
+         width="205.98877"
+         height="128.33685"
+         x="-54.369556"
+         y="95.21991"
+         rx="10"
+         ry="10" />
+      <g
+         id="g2789-7-8"
+         transform="translate(-62.884425,54.821231)">
+        <rect
+           style="fill:#7bbcb0;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect858-2-1-6"
+           width="60.308762"
+           height="106.57301"
+           x="81.354958"
+           y="56.043106" />
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,64.576803,14.097821)"
+           id="text25094-9-5-1"
+           style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-0-3-9);fill:#000000;fill-opacity:1;stroke:none"
+           x="77.451187"
+           y="0"><tspan
+             x="107.83008"
+             y="196.06976"
+             id="tspan14551"><tspan
+               style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+               id="tspan14549">Staging area</tspan></tspan></text>
+      </g>
+      <g
+         id="g2795-2-4"
+         transform="translate(-62.884425,54.821231)">
+        <rect
+           style="fill:#559c9e;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect858-7-1-0"
+           width="60.308762"
+           height="106.57301"
+           x="149.07204"
+           y="56.043106" />
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,131.90936,14.193071)"
+           id="text25094-3-1-8"
+           style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-1-8-2);fill:#000000;fill-opacity:1;stroke:none"
+           x="77.451187"
+           y="0"><tspan
+             x="89.595703"
+             y="196.06976"
+             id="tspan14555"><tspan
+               style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+               id="tspan14553">Local repository</tspan></tspan></text>
+      </g>
+      <g
+         id="g2783-0-1"
+         transform="translate(-62.884425,54.821231)">
+        <rect
+           style="fill:#a5dbc2;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect858-1-0"
+           width="60.308762"
+           height="106.57301"
+           x="13.637859"
+           y="56.043106" />
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,-3.2962219,14.193071)"
+           id="text25094-8-3"
+           style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-5-4);fill:#000000;fill-opacity:1;stroke:none"
+           x="77.451187"
+           y="0"><tspan
+             x="100.37695"
+             y="196.06976"
+             id="tspan14559"><tspan
+               style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+               id="tspan14557">Working copy</tspan></tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,1.327043,53.241234)"
+         id="text25094-3-9-5-7-1"
+         style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-1-1-4-8-9);fill:#ffffff;fill-opacity:1;stroke:none"
+         x="77.451187"
+         y="0"><tspan
+           x="139.11914"
+           y="196.06976"
+           id="tspan14563"><tspan
+             style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+             id="tspan14561">LOCAL</tspan></tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-5-7-9)"
+         d="M 56.541127,161.24041 H 106.54113"
+         id="path976-1-6-5" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-56-0)"
+         d="M -11.430228,161.24041 H 38.569776"
+         id="path976-7-0" />
+      <g
+         id="g4592-8"
+         transform="translate(-56.269883,-160.8644)">
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2617-18-4"
+           width="43.819695"
+           height="12.237998"
+           x="116.78792"
+           y="303.37354"
+           rx="5"
+           ry="5" />
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,91.533658,259.86355)"
+           id="text25094-5-6-4-9"
+           style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-3-5-3-3);fill:#ffffff;fill-opacity:1;stroke:none"
+           x="77.451187"
+           y="0"><tspan
+             x="133.72852"
+             y="196.06976"
+             id="tspan14567"><tspan
+               style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+               id="tspan14565">Commit</tspan></tspan></text>
+      </g>
+      <g
+         id="g4586-3"
+         transform="translate(-56.79905,-160.8644)">
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2617-1-8-0"
+           width="43.819695"
+           height="12.237998"
+           x="49.57299"
+           y="303.37354"
+           rx="5"
+           ry="5" />
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,24.472309,259.1587)"
+           id="text25094-5-97-5"
+           style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-3-8-40-0);fill:#ffffff;fill-opacity:1;stroke:none"
+           x="77.451187"
+           y="0"><tspan
+             x="145.91602"
+             y="196.06976"
+             id="tspan14571"><tspan
+               style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+               id="tspan14569">Stage</tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       id="g4570-3"
+       transform="translate(-0.3324615,147.04584)"
+       inkscape:export-filename="/Users/nicolascasajus/GitHub/workshops/intro-git/assets/img/git-workflow-3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <g
+         id="g13869">
+        <g
+           id="g3529-9"
+           transform="translate(0.94087619,138.57917)">
+          <rect
+             style="fill:none;fill-opacity:1;stroke:none;stroke-width:1.00838;stroke-miterlimit:1;stroke-opacity:0"
+             id="rect1478-6-3"
+             width="297.81778"
+             height="147.04584"
+             x="-1.0173044"
+             y="107.62157" />
+          <rect
+             style="fill:#91902f;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             id="rect44147-9-2-9"
+             width="70.383652"
+             height="128.4431"
+             x="220.9326"
+             y="116.92293"
+             rx="10"
+             ry="10" />
+          <rect
+             style="fill:#91902f;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             id="rect44147-2-6"
+             width="205.98877"
+             height="128.33685"
+             x="4.4669132"
+             y="116.97598"
+             rx="10"
+             ry="10" />
+          <g
+             id="g2807-5-6"
+             transform="translate(2.8312104,76.577301)">
+            <rect
+               style="fill:#559c9e;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               id="rect858-4-2-4"
+               width="60.308762"
+               height="106.57301"
+               x="223.13893"
+               y="56.043106" />
+            <text
+               xml:space="preserve"
+               transform="matrix(0.26458333,0,0,0.26458333,205.97624,14.062896)"
+               id="text25094-3-9-2-0"
+               style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-1-1-0-00);fill:#000000;fill-opacity:1;stroke:none"
+               x="77.451187"
+               y="0"><tspan
+                 x="75.251953"
+                 y="196.06976"
+                 id="tspan14575"><tspan
+                   style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+                   id="tspan14573">Remote repository</tspan></tspan></text>
+          </g>
+          <g
+             id="g2789-7-82"
+             transform="translate(-4.047957,76.577301)">
+            <rect
+               style="fill:#7bbcb0;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               id="rect858-2-1-0"
+               width="60.308762"
+               height="106.57301"
+               x="81.354958"
+               y="56.043106" />
+            <text
+               xml:space="preserve"
+               transform="matrix(0.26458333,0,0,0.26458333,64.576803,14.097821)"
+               id="text25094-9-5-6"
+               style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-0-3-97);fill:#000000;fill-opacity:1;stroke:none"
+               x="77.451187"
+               y="0"><tspan
+                 x="107.83008"
+                 y="196.06976"
+                 id="tspan14579"><tspan
+                   style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+                   id="tspan14577">Staging area</tspan></tspan></text>
+          </g>
+          <g
+             id="g2795-2-0"
+             transform="translate(-4.047957,76.577301)">
+            <rect
+               style="fill:#559c9e;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               id="rect858-7-1-7"
+               width="60.308762"
+               height="106.57301"
+               x="149.07204"
+               y="56.043106" />
+            <text
+               xml:space="preserve"
+               transform="matrix(0.26458333,0,0,0.26458333,131.90936,14.193071)"
+               id="text25094-3-1-2"
+               style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-1-8-1);fill:#000000;fill-opacity:1;stroke:none"
+               x="77.451187"
+               y="0"><tspan
+                 x="89.595703"
+                 y="196.06976"
+                 id="tspan14583"><tspan
+                   style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+                   id="tspan14581">Local repository</tspan></tspan></text>
+          </g>
+          <g
+             id="g2783-0-9"
+             transform="translate(-4.047957,76.577301)">
+            <rect
+               style="fill:#a5dbc2;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               id="rect858-1-8"
+               width="60.308762"
+               height="106.57301"
+               x="13.637859"
+               y="56.043106" />
+            <text
+               xml:space="preserve"
+               transform="matrix(0.26458333,0,0,0.26458333,-3.2962219,14.193071)"
+               id="text25094-8-1"
+               style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-5-7);fill:#000000;fill-opacity:1;stroke:none"
+               x="77.451187"
+               y="0"><tspan
+                 x="100.37695"
+                 y="196.06976"
+                 id="tspan14587"><tspan
+                   style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+                   id="tspan14585">Working copy</tspan></tspan></text>
+          </g>
+          <text
+             xml:space="preserve"
+             transform="matrix(0.26458333,0,0,0.26458333,60.163511,74.997304)"
+             id="text25094-3-9-5-7-16"
+             style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-1-1-4-8-4);fill:#ffffff;fill-opacity:1;stroke:none"
+             x="77.451187"
+             y="0"><tspan
+               x="139.11914"
+               y="196.06976"
+               id="tspan14591"><tspan
+                 style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+                 id="tspan14589">LOCAL</tspan></tspan></text>
+          <text
+             xml:space="preserve"
+             transform="matrix(0.26458333,0,0,0.26458333,208.94625,74.997304)"
+             id="text25094-3-9-5-4-6-1"
+             style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-1-1-4-7-4-5);fill:#ffffff;fill-opacity:1;stroke:none"
+             x="77.451187"
+             y="0"><tspan
+               x="128.0332"
+               y="196.06976"
+               id="tspan14595"><tspan
+                 style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+                 id="tspan14593">REMOTE</tspan></tspan></text>
+        </g>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-5-7-1)"
+           d="m 115.98601,468.62148 h 50"
+           id="path976-1-6-1"
+           transform="translate(0.3324615,-147.04584)" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-56-8)"
+           d="M 48.014655,468.62148 H 98.014659"
+           id="path976-7-8"
+           transform="translate(0.3324615,-147.04584)" />
+        <g
+           id="g4592-1"
+           transform="translate(3.5074615,-0.52917056)">
+          <rect
+             style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
+             id="rect2617-18-1"
+             width="43.819695"
+             height="12.237998"
+             x="116.78792"
+             y="303.37354"
+             rx="5"
+             ry="5" />
+          <text
+             xml:space="preserve"
+             transform="matrix(0.26458333,0,0,0.26458333,91.533658,259.86355)"
+             id="text25094-5-6-4-5"
+             style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-3-5-3-5);fill:#ffffff;fill-opacity:1;stroke:none"
+             x="77.451187"
+             y="0"><tspan
+               x="133.72852"
+               y="196.06976"
+               id="tspan14599"><tspan
+                 style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+                 id="tspan14597">Commit</tspan></tspan></text>
+        </g>
+        <g
+           id="g4586-0"
+           transform="translate(2.9782948,-0.52917056)">
+          <rect
+             style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
+             id="rect2617-1-8-08"
+             width="43.819695"
+             height="12.237998"
+             x="49.57299"
+             y="303.37354"
+             rx="5"
+             ry="5" />
+          <text
+             xml:space="preserve"
+             transform="matrix(0.26458333,0,0,0.26458333,24.472309,259.1587)"
+             id="text25094-5-97-3"
+             style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-3-8-40-4);fill:#ffffff;fill-opacity:1;stroke:none"
+             x="77.451187"
+             y="0"><tspan
+               x="145.91602"
+               y="196.06976"
+               id="tspan14603"><tspan
+                 style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+                 id="tspan14601">Stage</tspan></tspan></text>
+        </g>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.53996;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-6-5)"
+           d="M 244.43388,492.92205 H 50.738873"
+           id="path976-9-7"
+           transform="translate(0.3324615,-147.04584)" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-1-1)"
+           d="m 192.16612,468.62148 h 50"
+           id="path976-8-0"
+           transform="translate(0.3324615,-147.04584)" />
+        <g
+           id="g4603-1"
+           transform="translate(1.3907948,-1.4272987)">
+          <rect
+             style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
+             id="rect2617-6-3"
+             width="43.819695"
+             height="12.237998"
+             x="192.66599"
+             y="304.27167"
+             rx="5"
+             ry="5" />
+          <text
+             xml:space="preserve"
+             transform="matrix(0.26458333,0,0,0.26458333,167.47263,260.86966)"
+             id="text25094-5-0-4"
+             style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-3-8-4-4);fill:#ffffff;fill-opacity:1;stroke:none"
+             x="77.451187"
+             y="0"><tspan
+               x="151.82227"
+               y="196.06976"
+               id="tspan14607"><tspan
+                 style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+                 id="tspan14605">Push</tspan></tspan></text>
+        </g>
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2617-3-7"
+           width="43.819695"
+           height="12.237998"
+           x="120.29538"
+           y="352.09909"
+           rx="5"
+           ry="5" />
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,95.227593,308.59555)"
+           id="text25094-5-9-7"
+           style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect25096-3-7-5);fill:#ffffff;fill-opacity:1;stroke:none"
+           x="77.451187"
+           y="0"><tspan
+             x="114.32227"
+             y="196.06976"
+             id="tspan14611"><tspan
+               style="font-weight:600;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Semi-Bold';text-align:center;text-anchor:middle"
+               id="tspan14609">Clone / Pull</tspan></tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
