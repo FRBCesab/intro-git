@@ -1,7 +1,7 @@
 ---
 title: <br>Git for R Users
 subtitle: "<i>A Gentle Introduction to Version Control</i>"
-date: .inst[February 2022]
+date: .inst[March 2022]
 author: <br><br><br>Nicolas Casajus<br>Laura Mannocci
 output:
   xaringan::moon_reader:
