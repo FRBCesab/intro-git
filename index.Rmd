@@ -1,8 +1,8 @@
 ---
 title: <br>Git for R Users
 subtitle: "<i>A Gentle Introduction to Version Control</i>"
-date: .inst[March 2022]
-author: <br><br><br>Nicolas Casajus<br>Laura Mannocci
+date: .inst[February 2023]
+author: <br><br><br>Nicolas Casajus<br>Camille Coux
 output:
   xaringan::moon_reader:
     css: ["assets/css/xaringan-themer.css", "assets/css/custom.css"]
