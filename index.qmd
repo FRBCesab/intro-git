@@ -1,0 +1,21 @@
+---
+from: markdown+emoji
+format:
+  revealjs:
+    logo: img/cesab-logo.png
+    footer: "{{< fa brands github >}} &nbsp;<https://github.com/frbcesab/intro-git>"
+    smaller: true
+    auto-stretch: false
+    toc-depth: 1
+    theme: [default, "css/custom.scss"]
+engine: knitr
+---
+
+```{r}
+#| child: "slides/title-slide.qmd"
+```
+
+
+```{r}
+#| child: "slides/motivations.qmd"
+```

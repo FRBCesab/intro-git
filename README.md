@@ -1,24 +1,9 @@
-# intro-git
+# Version control with git & GitHub <img src="https://raw.githubusercontent.com/FRBCesab/templates/main/logos/website-sticker.png" align="right" style="float:right; height:120px;"/>
 
-[![pages-build-deployment](https://github.com/FRBCesab/intro-git/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/FRBCesab/intro-git/actions/workflows/pages/pages-build-deployment)
-
-A [`xaringan`](https://cran.r-project.org/web/packages/xaringan/index.html) presentation to introduce [`git`](https://git-scm.com/) and [`GitHub`](https://github.com).
-
-
-
-## Setup
-
-You'll need these two R packages: `rmarkdown` and `xaringan`.
-
-```{r}
-install.packages(c("rmarkdown", "xaringan"))
-```
+<!-- badges: start -->
+[![Quarto Render and Publish](https://github.com/FRBCesab/intro-git/actions/workflows/quarto-publish.yml/badge.svg)](https://github.com/FRBCesab/intro-git/actions/workflows/quarto-publish.yml)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)](https://choosealicense.com/licenses/cc-by-4.0/)<!-- badges: end -->
 
 
-## Contributing
 
-To modify the slides, edit the `index.Rmd` and then:
-
-```{r}
-rmarkdown::render("index.Rmd")
-```
+Coming soon...

@@ -1,0 +1,62 @@
+::: {.title-slide-container}
+
+::: {.title-slide-content}
+
+:::: {.columns}
+
+::: {.column .logo width="30%"}
+![](https://raw.githubusercontent.com/rdatatoolbox/.github/main/profile/logo-rdatatoolbox_150dpi.png)
+:::
+
+::: {.column width="70%"}
+
+::: {.title}
+Version control
+:::
+
+::: {.subtitle}
+Introduction to git & GitHub
+:::
+
+::: {.date}
+```{r}
+#| echo: false
+#| results: asis
+olocale <- Sys.getlocale("LC_TIME")
+invisible(Sys.setlocale("LC_TIME", "en_US.UTF-8"))
+cat(format(Sys.Date(), "%B %Y"))
+invisible(Sys.setlocale("LC_TIME", olocale))
+```
+:::
+
+:::: {.columns}
+
+::: {.column .author width="45%"}
+Nicolas Casajus<br/>
+[{{< fa paper-plane >}}](mailto:nicolas.casajus@fondationbiodiversite.fr)
+[{{< fa brands github >}}](https://github.com/ahasverus)
+[{{< fa globe >}}](https://nicolascasajus.fr)
+
+::: {.affiliation}
+{{< fa house >}} &nbsp;[FRB-CESAB](https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/)
+:::
+:::
+
+<!--
+::: {.column .author width="45%"}
+Camille Coux<br/>
+[{{< fa paper-plane >}}](mailto:camille.coux@fondationbiodiversite.fr)
+[{{< fa brands github >}}](https://github.com/camillecoux)
+[{{< fa globe >}}](https://www.fondationbiodiversite.fr/en/membre/camille-coux/)
+
+::: {.affiliation}
+{{< fa brands github >}} &nbsp;[https://github.com/frbcesab](https://github.com/frbcesab)
+:::
+:::
+-->
+
+::::
+:::
+::::
+:::
+:::

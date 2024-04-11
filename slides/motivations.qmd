@@ -1,0 +1,111 @@
+# Introduction
+
+
+## Motivations
+
+::::{ .columns }
+:::{ .column width="50%" align="left"}
+![Project content (without `git`)](img/folder_without_git.png)
+:::
+:::{ .column width="50%" }
+:::
+::::
+
+
+## Motivations
+
+::::{ .columns }
+:::{ .column width="50%" align="left"}
+![Project content (without `git`)](img/folder_without_git.png)
+:::
+:::{ .column width="50%" }
+**Questions**
+
+- Which version of `analyses.R` is the final one?
+- What about `data.csv`?
+- What are the differences between versions?
+- Who have contributed to these versions? When?
+:::
+::::
+
+
+## Motivations
+
+::::{ .columns }
+:::{ .column width="50%" align="left"}
+![Project content (without `git`)](img/folder_without_git.png)
+:::
+:::{ .column width="50%" }
+**Questions**
+
+- Which version of `analyses.R` is the final one?
+- What about `data.csv`?
+- What are the differences between versions?
+- Who have contributed to these versions? When?
+:::
+::::
+
+
+{{< fa hand-point-right >}} &nbsp;We need a tool that deals with versions for us
+
+
+## Motivations
+
+![](img/git-logo-long.png){width=15% fig-align="center"}
+
+::::{ .columns }
+:::{ .column width="50%" align="left"}
+![Project content (without `git`)](img/folder_without_git.png)
+:::
+:::{ .column width="50%" align="left"}
+![Project content (with `git`)](img/folder_with_git.png)
+:::
+::::
+
+
+## Presentation of `git`
+
+`git` is a **Version Control System** (VCS).
+
+
+## Presentation of `git`
+
+`git` is a **Version Control System** (VCS). With `git` you can:
+
+::::{ .columns }
+:::{ .column width="60%" align="left"}
+- keep your working copy clean
+- make contributions transparent
+<br/>(what | who | when | why)
+- keep the entire history of a file (and project)
+- inspect a file throughout its life time
+- revert back to a previous version
+- handle multiple versions (branches)
+- facilitate collaborations w/ code hosting platforms
+<br>(GitHub, GitLab, Bitbucket, etc.)
+- backup your project
+:::
+:::{ .column width="40%"}
+![](img/git-logo-long.png)
+:::
+::::
+
+
+## A word of warning
+
+
+**`git`** and **`GitHub`** are **not the same thing**
+
+- `git` is a free and open-source **software**
+- `GitHub` (and co) is a **web platform** to host and share projects tracked by `git`
+
+
+. . . 
+
+<br>
+
+In other words:
+
+> You do not need `GitHub` to use `git` but you cannot use `GitHub` without using `git`
+
+
