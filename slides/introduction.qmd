@@ -1,6 +1,5 @@
 # Introduction
 
-
 ## Motivations
 
 ::::{ .columns }
@@ -86,6 +85,8 @@
 - backup your project
 :::
 :::{ .column width="40%"}
+<br/>
+<br/>
 ![](img/git-logo-long.png)
 :::
 ::::
@@ -107,5 +108,36 @@
 In other words:
 
 > You do not need `GitHub` to use `git` but you cannot use `GitHub` without using `git`
+
+
+
+## RStudio and git
+
+::::{ .columns }
+:::{ .column width="100%"}
+**Git main panel**
+
+![](img/git-rstudio.png){width=80%}
+:::
+:::{ .column width="0%"}
+:::
+::::
+
+
+## RStudio and git
+
+
+::::{ .columns }
+:::{ .column width="50%"}
+**Stage files, view differences and commit changes**
+
+![](img/rstudio-change.png){width=100%}
+:::
+:::{ .column width="50%"}
+**View history and versions**
+
+![](img/rstudio-history.png){width=100%}
+:::
+::::
 
 

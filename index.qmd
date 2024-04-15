@@ -17,5 +17,9 @@ engine: knitr
 
 
 ```{r}
-#| child: "slides/motivations.qmd"
+#| child: "slides/introduction.qmd"
+```
+
+```{r}
+#| child: "slides/using-git.qmd"
 ```

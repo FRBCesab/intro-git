@@ -7,20 +7,20 @@
 
 $font-family-sans-serif: "Lato", Palatino, FreeSerif, serif !default;
 $font-family-monospace: "Fira Code", monospace !default;
-$presentation-font-smaller: 0.7 !default;
+$presentation-font-smaller: 0.5 !default;
 
 // headings
 
 $presentation-heading-font-weight: 400 !default;
-$presentation-h1-font-size: 1.4em !default;
-$presentation-h2-font-size: 1.2em !default;
+$presentation-h1-font-size: 1.2em !default;
+$presentation-h2-font-size: 1.0em !default;
 $presentation-h3-font-size: 1.0em !default;
 
 
 /*-- scss:rules --*/
 
 .title-slide-content .columns .column .title p {
-  font-size: 1.6em;
+  font-size: 1.8em;
   font-weight: 700;
   color: #2d2d2b;
   margin: 0;
@@ -29,7 +29,7 @@ $presentation-h3-font-size: 1.0em !default;
 }
 
 .title-slide-content .columns .column .subtitle p {
-  font-size: 1.3em;
+  font-size: 1.6em;
   font-weight: 400;
   color: #6a6358;
   margin: 0;
@@ -40,7 +40,7 @@ $presentation-h3-font-size: 1.0em !default;
 
 .title-slide-content .columns .column .date p {
   text-align: right;
-  font-size: 80%;
+  font-size: 90%;
   color: #2d2d2b;
   padding-bottom: 0;
   margin-bottom: 0;
@@ -49,7 +49,7 @@ $presentation-h3-font-size: 1.0em !default;
 .title-slide-content .columns .column .author {
   font-weight: normal;
   color: #2d2d2b;
-  font-size: 80%;
+  font-size: 90%;
   padding: 0;
   margin: 0;
 }
@@ -58,15 +58,15 @@ $presentation-h3-font-size: 1.0em !default;
 .author i {
   padding-left: 2px;
   padding-right: 2px;
-  font-size: 80%;
+  font-size: 90%;
 }
 
 .small {
-  font-size: 70%;
+  font-size: 80%;
 }
 
 .title-slide-content .columns .column .affiliation {
-  font-size: 70%;
+  font-size: 90%;
 }
 
 .title-slide-content {
@@ -89,6 +89,7 @@ figcaption {
   margin-top: 0;
   padding-top: 0;
   text-align: center;
+  font-size: 120%;
 }
 
 figure p, figure p img {
@@ -97,7 +98,7 @@ figure p, figure p img {
 }
 
 figure {
-  font-size: 90%;
+  font-size: 120%;
   margin: 0;
   padding: 0;
 }
@@ -115,7 +116,7 @@ aside {
 }
 
 .aside-footnotes {
-  font-size: 80%;
+  font-size: 100%;
 }
 
 .center p {

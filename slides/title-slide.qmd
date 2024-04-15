@@ -5,7 +5,8 @@
 :::: {.columns}
 
 ::: {.column .logo width="30%"}
-![](https://raw.githubusercontent.com/rdatatoolbox/.github/main/profile/logo-rdatatoolbox_150dpi.png)
+<!-- ![](https://raw.githubusercontent.com/rdatatoolbox/.github/main/profile/logo-rdatatoolbox_150dpi.png) -->
+![](img/git-logo.png)
 :::
 
 ::: {.column width="70%"}

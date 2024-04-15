@@ -1,0 +1,419 @@
+# Using `git`
+
+## How does `git` work?
+
+- `git` takes a sequence of **snapshots**
+- Each snapshot can contain changes for one or many file(s)
+- User chooses which files to _'save'_ in a snapshot and when
+<br>(`!=` file hosting services like Dropbox, Google Drive, etc.)
+
+
+. . .
+
+<br>
+
+{{< fa hand-point-right >}} &nbsp;In the `git` universe, a snapshot is a **version**, i.e. the state of the whole project at a specific point in time
+
+
+. . .
+
+<br>
+
+A snapshot is a two-step process:
+
+- **Stage files**: select which files to add to the version
+- **Commit changes**: save the version and add metadata (`commit message`)
+
+
+## Basic workflow
+
+{{< fa hand-point-right >}} &nbsp;Initialize `git` in a (empty) folder (`repository`)
+
+::::{ .columns }
+:::{ .column width="60%"}
+![](img/git-workflow-0.png){width=100%}
+:::
+:::{ .column width="40%"}
+<br>
+```bash
+git init
+```
+<br>
+The **three areas** of a `git` `repository`:
+
+- **`working copy`**: current state of the directory (what you actually see)
+- **`staging area`**: selected files that will be added to the next version
+- **`repository`**: area w/ all the versions<br/>(the `.git/` subdirectory)
+:::
+::::
+
+
+## Basic workflow
+
+{{< fa hand-point-right >}} &nbsp;Add new files in the `repository`
+
+::::{ .columns }
+:::{ .column width="60%"}
+![](img/git-workflow-1.png){width=100%}
+:::
+:::{ .column width="40%"}
+<br>
+```bash
+git status
+
+# On branch main
+# 
+# No commits yet
+# 
+# Untracked files:
+# 	README.md
+# 	analyses.R
+# 	data.csv
+# 
+# Nothing added to commit but untracked files present
+# Use "git add <file>..." to track
+```
+:::
+::::
+
+
+
+
+## Basic workflow
+
+{{< fa hand-point-right >}} &nbsp;`Stage` (select) one file
+
+::::{ .columns }
+:::{ .column width="60%"}
+![](img/git-workflow-2.png){width=100%}
+:::
+:::{ .column width="40%"}
+<br>
+```bash
+git add data.csv
+```
+
+<br>
+```bash
+git status
+
+# On branch main
+# 
+# No commits yet
+# 
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+# 	new file:   data.csv
+# 
+# Untracked files:
+#   (use "git add <file>..." to track)
+# 	README.md
+# 	analyses.R
+```
+:::
+::::
+
+
+
+
+
+## Basic workflow
+
+{{< fa hand-point-right >}} &nbsp;`Stage` (select) several files
+
+::::{ .columns }
+:::{ .column width="60%"}
+![](img/git-workflow-3.png){width=100%}
+:::
+:::{ .column width="40%"}
+<br>
+```bash
+git add data.csv analyses.R
+```
+
+<br>
+```bash
+git status
+
+# On branch main
+# 
+# No commits yet
+# 
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+# 	new file:   analyses.R
+# 	new file:   data.csv
+# 
+# Untracked files:
+#   (use "git add <file>..." to track)
+# 	README.md
+```
+:::
+::::
+
+
+
+## Basic workflow
+
+{{< fa hand-point-right >}} &nbsp;`Stage` (select) all files
+
+::::{ .columns }
+:::{ .column width="60%"}
+![](img/git-workflow-4.png){width=100%}
+:::
+:::{ .column width="40%"}
+<br>
+```bash
+git add .
+```
+
+<br>
+```bash
+git status
+
+# On branch main
+# 
+# No commits yet
+# 
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+# 	new file:   analyses.R
+# 	new file:   data.csv
+# 	new file:   README.md
+```
+:::
+::::
+
+
+## Basic workflow
+
+{{< fa hand-point-right >}} &nbsp;`Commit` changes to create a new version
+
+::::{ .columns }
+:::{ .column width="60%"}
+![](img/git-workflow-5.png){width=100%}
+:::
+:::{ .column width="40%"}
+<br>
+```bash
+git commit -m "a good commit message"
+```
+:::
+::::
+
+
+
+
+## Basic workflow
+
+{{< fa hand-point-right >}} &nbsp;Now we are `up-to-date`
+
+::::{ .columns }
+:::{ .column width="60%"}
+![](img/git-workflow-6.png){width=100%}
+:::
+:::{ .column width="40%"}
+<br>
+```bash
+git status
+
+# On branch main
+# nothing to commit, working tree clean
+```
+:::
+::::
+
+
+## The status of a file
+
+<br>
+
+![](img/git-file-lifecycle.png){width=50% fig-align="center"}
+
+<br>
+
+With `git` a file can be **untracked** or **tracked**[^changes]. If it's tracked it can be:
+
+- unmodified
+- modified and unstaged
+- modified and staged
+
+
+[^changes]: <https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository>
+
+
+
+## The `.gitignore`
+
+{{< fa hand-point-right >}} &nbsp;We can also tell `git` to **ignore specific files**: it's the purpose of the `.gitignore` file
+
+. . .
+
+<br>
+
+::::{ .columns }
+:::{ .column width="50%"}
+Which files? For instance:
+
+- passwords, tokens and other secrets
+- temporary files
+- build files
+- large files
+
+:::
+
+:::{ .column width="50%"}
+:::
+::::
+
+
+## The `.gitignore`
+
+{{< fa hand-point-right >}} &nbsp;We can also tell `git` to **ignore specific files**: it's the purpose of the `.gitignore` file
+
+<br>
+
+::::{ .columns }
+:::{ .column width="50%"}
+Which files? For instance:
+
+- passwords, tokens and other secrets
+- temporary files
+- build files
+- large files
+
+:::
+
+:::{ .column width="50%"}
+The syntax is simple:
+
+```txt
+# Ignore a specific file
+README.html
+
+# Ignore all PDF
+*.pdf
+
+# Ignore a folder
+data/
+
+# Ignore a subfolder
+data/raw-data/
+
+# Ignore a specific file in a subfolder
+data/raw-data/raw-data.csv
+```
+:::
+::::
+
+
+<br/>
+
+. . .
+
+
+{{< fa hand-point-right >}} &nbsp;Template for {{< fa brands r-project >}} projects available [here](https://github.com/github/gitignore/blob/main/R.gitignore)
+
+
+
+## Commits
+
+
+
+::::{.columns}
+:::{.column width=50%}
+When committing a new version (w/ `git commit`), the following information must be added:
+
+- **`WHO`** - the person who has made the changes
+<br>(automatically added by `git`)
+- **`WHEN`** - the date of the commit
+<br>(automatically added by `git`)
+- **`WHAT`** - the files that have been modified
+<br>(selected by the user w/ `git add`)
+- **`WHY`** - the reason of the commit, i.e. what has been done compared to the previous version
+<br>(added by the user w/ `git commit`)
+:::
+:::{.column width=50%}
+:::
+::::
+
+
+
+## Commits
+
+::::{.columns}
+:::{.column width=50%}
+When committing a new version (w/ `git commit`), the following information must be added:
+
+- **`WHO`** - the person who has made the changes
+<br>(automatically added by `git`)
+- **`WHEN`** - the date of the commit
+<br>(automatically added by `git`)
+- **`WHAT`** - the files that have been modified
+<br>(selected by the user w/ `git add`)
+- **`WHY`** - the reason of the commit, i.e. what has been done compared to the previous version
+<br>(added by the user w/ `git commit`)
+:::
+
+:::{.column width=50%}
+A commit message has a title line, and an optional body
+
+```bash
+# Commit message w/ title
+git commit -m "title"
+
+# Commit message w/ title and body (optional)
+git commit -m "title" -m "body"
+
+```
+
+
+<br>
+
+**What is a good commit message?**
+
+A good commit title:
+
+- should be **short** (less than 50 characters)
+- should be **informative** and **unambiguous**
+- should use **active voice** and **present tense**
+:::
+::::
+
+. . .
+
+<br>
+
+An **optional body** can be added to provide **detailed information** and to link **external references** (e.g. issue, pull request, etc.)
+
+
+
+## When should you commit?
+
+
+::::{.columns}
+:::{.column width=50%}
+![](img/in-case-of-fire.png){width=90%}
+:::
+:::{.column width=50%}
+:::
+::::
+
+
+## When should you commit?
+
+
+::::{.columns}
+:::{.column width=50%}
+![](img/in-case-of-fire.png){width=90%}
+:::
+:::{.column width=50%}
+<br>
+
+- Commit a new version when you reach a milestone
+- Create small and atomic commits
+- Commit a state that is actually working
+:::
+::::
+
+
