@@ -23,3 +23,11 @@ engine: knitr
 ```{r}
 #| child: "slides/using-git.qmd"
 ```
+
+```{r}
+#| child: "slides/using-github.qmd"
+```
+
+```{r}
+#| child: "slides/practice.qmd"
+```

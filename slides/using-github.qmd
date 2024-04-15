@@ -1,0 +1,512 @@
+# Using GitHub
+
+## Code hosting platforms
+
+GitHub and co are **cloud-based git repository hosting services**
+
+{{< fa hand-point-right >}} &nbsp;
+Perfect solutions to collaborate on projects tracked by `git`
+
+. . .
+
+<br>
+
+**Services**
+
+- Full integration of version control (commits, history, differences)
+- Easy collaboration w/ branches, forks, pull requests
+- Issues tracking system
+- Enhanced documentation rendering (README, Wiki)
+- Static website hosting
+- Automation & monitoring (CI/CD)
+
+
+## Main platforms
+
+::::{ .columns }
+:::{ .column width="50%" .center}
+![](img/github-logo.png){width="25%"}
+<br>
+[**GitHub**](https://github.com/)
+
+<br>
+![](img/bitbucket-logo.png){width="25%"}
+<br>
+[**BitBucket**](https://bitbucket.org/)
+:::
+:::{ .column width="50%" .center}
+![](img/gitlab-logo.png){width="25%"}
+<br>
+[**GitLab**](https://gitlab.com/)
+
+<br>
+![](img/sourceforge-logo.png){width="25%"}
+<br>
+[**SourceForge**](https://sourceforge.net/)
+:::
+::::
+
+
+
+## Presentation of GitHub
+
+::::{ .columns }
+:::{ .column width="50%"}
+**Overview**
+
+- Created in 2008
+- For-profit company (property of Microsoft since 2018)
+- Used by more than 100 million developers around the world
+
+<br>
+
+**Advantages**
+
+- User-friendly interface for `git`
+- Free account w/ unlimited public/private repositories
+- Organization account (w/ free plan)
+- Advanced tools for collaboration
+:::
+:::{ .column width="50%" .center}
+![](img/github-logo.png){width="50%"}
+:::
+::::
+
+
+## GitHub - Account homepage
+
+::: {.center}
+![_Source:_ <https://github.com/ahasverus>](img/github-homepage.png){width="75%"}
+:::
+
+
+## GitHub - Organization homepage
+
+::: {.center}
+![_Source:_ <https://github.com/frbcesab>](img/github-organization.png){width="75%"}
+:::
+
+
+
+## GitHub - Repository homepage
+
+
+::: {.center}
+![_Source:_ <https://github.com/frbcesab/rwoslite>](img/github-repo.png){width="75%"}
+:::
+
+
+## Create a repository
+
+::: {.center}
+![](img/github-newrepo-1.png){width="75%"}
+:::
+
+
+## Create a repository
+
+::: {.center}
+![](img/github-newrepo-2.png){width="75%"}
+:::
+
+
+
+## Create a repository
+
+::: {.center}
+![](img/github-newrepo-3.png){width="75%"}
+:::
+
+
+
+## Clone a repository w/ RStudio
+
+<br>
+
+:::: {.columns}
+::: {.column width="33%" .center}
+![Select `Version Control`](img/rstudio-project.png){width="100%"}
+:::
+::: {.column width="33%" .center}
+![Select `Git`](img/rstudio-clone-1.png){width="100%"}
+:::
+::: {.column width="33%" .center}
+![Copy the URL and fill all the fields](img/rstudio-clone-2.png){width="100%"}
+:::
+::::
+
+
+
+
+## Get the URL to clone
+
+::: {.center}
+![](img/github-newrepo-4.png){width="75%"}
+:::
+
+
+
+## Local copy of a repository
+
+::: {.center}
+![](img/rstudio-clone-3.png){width="80%"}
+:::
+
+
+## Working w/ GitHub
+
+{{< fa hand-point-right >}} &nbsp;Add a new file: `README.md`
+
+::::{ .columns }
+:::{ .column width="60%"}
+![](img/git-workflow-11.png){width=100%}
+:::
+:::{ .column width="40%"}
+<br>
+```bash
+git status
+
+# On branch main
+# Your branch is up to date with 'origin/main'
+#
+# Untracked files:
+#   README.md
+# 
+# Nothing added to commit but untracked files present
+# Use "git add <file>..." to track
+```
+:::
+::::
+
+
+
+
+## Working w/ GitHub
+
+{{< fa hand-point-right >}} &nbsp;`Stage` changes
+
+::::{ .columns }
+:::{ .column width="60%"}
+![](img/git-workflow-12.png){width=100%}
+:::
+:::{ .column width="40%"}
+<br>
+```bash
+git add .
+```
+
+<br>
+```bash
+git status
+
+# On branch main
+# Your branch is up to date with 'origin/main'
+#
+# Changes to be committed:
+#   (use "git restore --staged <file>..." to unstage)
+#   new file:   README.md
+```
+:::
+::::
+
+
+## Working w/ GitHub
+
+{{< fa hand-point-right >}} &nbsp;`Commit` changes
+
+::::{ .columns }
+:::{ .column width="60%"}
+![](img/git-workflow-13.png){width=100%}
+:::
+:::{ .column width="40%"}
+<br>
+```bash
+git commit -m "add README"
+```
+
+<br>
+```bash
+git status
+
+# On branch main
+# Your branch is ahead of 'origin/main' by 1 commit.
+#   (use "git push" to publish your local commits)
+# 
+# nothing to commit, working tree clean
+```
+:::
+::::
+
+
+## Working w/ GitHub
+
+{{< fa hand-point-right >}} &nbsp;`Push` changes to remote
+
+::::{ .columns }
+:::{ .column width="60%"}
+![](img/git-workflow-14.png){width=100%}
+:::
+:::{ .column width="40%"}
+<br>
+```bash
+git push
+
+# Sometimes, you'll need to use:
+git push -u origin main
+```
+
+<br>
+```bash
+git status
+
+# On branch main
+# Your branch is up to date with 'origin/main'.
+# 
+# nothing to commit, working tree clean
+```
+:::
+::::
+
+
+## Working w/ GitHub
+
+{{< fa hand-point-right >}} &nbsp;`Pull` changes from remote
+
+::::{ .columns }
+:::{ .column width="60%"}
+![](img/git-workflow-15.png){width=100%}
+:::
+:::{ .column width="40%"}
+:::
+::::
+
+
+## Working w/ GitHub
+
+{{< fa hand-point-right >}} &nbsp;`Pull` changes from remote
+
+::::{ .columns }
+:::{ .column width="60%"}
+![](img/git-workflow-16.png){width=100%}
+:::
+:::{ .column width="40%"}
+<br>
+```bash
+git pull
+```
+
+<br>
+```bash
+git status
+
+# On branch main
+# Your branch is up to date with 'origin/main'.
+# 
+# nothing to commit, working tree clean
+```
+:::
+::::
+
+## Help me, I can't push!
+
+When you try to push, you might see this following error message:
+
+::::{ .columns }
+:::{ .column width="60%"}
+```bash
+git push
+
+# To github.com:ahasverus/projectname.git
+#  ! [rejected]        main -> main (fetch first)
+#
+# error: failed to push some refs to 'github.com:ahasverus/projectname.git'
+#
+# hint: Updates were rejected because the remote contains work that you do
+# hint: not have locally. This is usually caused by another repository pushing
+# hint: to the same ref. You may want to first integrate the remote changes
+# hint: (e.g., 'git pull ...') before pushing again.
+# hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+:::
+:::{ .column width="40%"}
+:::
+::::
+
+. . .
+
+<br>
+
+{{< fa lightbulb >}} &nbsp;Just `git pull` and try to `git push` again
+
+
+## Help me, I can't pull!
+
+When you try to pull, you might see this following error message:
+
+::::{ .columns }
+:::{ .column width="60%"}
+```bash
+git pull
+
+# [...]
+# Auto-merging README.md
+# CONFLICT (content): Merge conflict in README.md
+#
+# error: could not apply b8302e6... edit README
+#
+# hint: Resolve all conflicts manually, mark them as resolved with
+# hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+# hint: You can instead skip this commit: run "git rebase --skip".
+# hint: To abort and get back to the state before "git rebase", 
+# hint: run "git rebase --abort".
+```
+:::
+:::{ .column width="40%"}
+:::
+::::
+
+. . .
+
+<br>
+
+{{< fa hand-point-right >}} &nbsp;Welcome to the wonderful world of `git` **conflicts**
+
+
+## Resolving conflicts
+
+**What is a (lexical) conflict?**
+
+A `git` conflict appears when two versions cannot be merged by `git` because changes have been made to the same lines.
+
+. . .
+
+<br>
+
+::::{ .columns }
+:::{ .column width="50%"}
+`README.md` - **Version A**
+
+```md
+# The SURPRISE pizza
+
+An amazing surprise of the dev team dedicated just to your fancy
+thirst for fortune and originality.
+```
+:::
+:::{ .column width="50%"}
+`README.md` - **Version B**
+
+```md
+# The Surprise Pizza
+
+An amazing surprise of the dev team dedicated just to your fancy
+thirst for fortune and originality.
+```
+:::
+::::
+
+. . .
+
+
+
+::::{ .columns }
+:::{ .column width="50%"}
+<br>
+
+`Git` will identify conflicts in files:
+
+```md
+<<<<<<< HEAD
+# The SURPRISE pizza
+=======
+# The Surprise Pizza
+>>>>>>> b8302e6 (edit README)
+
+An amazing surprise of the dev team dedicated just to your fancy
+thirst for fortune and originality.
+```
+:::
+:::{ .column width="50%"}
+:::
+::::
+
+
+. . .
+
+<br>
+
+{{< fa hand-point-right >}} &nbsp;You have to decide which version you want to keep.
+
+
+
+## Resolving conflicts
+
+**What is a (lexical) conflict?**
+
+A `git` conflict appears when two versions cannot be merged by `git` because changes have been made to the same lines.
+
+
+<br>
+
+::::{ .columns }
+:::{ .column width="50%"}
+`README.md` - **Version A**
+
+```md
+# The SURPRISE pizza
+
+An amazing surprise of the dev team dedicated just to your fancy
+thirst for fortune and originality.
+```
+:::
+:::{ .column width="50%"}
+`README.md` - **Version B**
+
+```md
+# The Surprise Pizza
+
+An amazing surprise of the dev team dedicated just to your fancy
+thirst for fortune and originality.
+```
+:::
+::::
+
+
+
+::::{ .columns }
+:::{ .column width="50%"}
+<br>
+
+`Git` will identify conflicts in files:
+
+```md
+<<<<<<< HEAD
+# The SURPRISE pizza
+=======
+# The Surprise Pizza
+>>>>>>> b8302e6 (edit README)
+
+An amazing surprise of the dev team dedicated just to your fancy
+thirst for fortune and originality.
+```
+:::
+:::{ .column width="50%"}
+<br>
+
+`README.md` - **Final version**
+
+```md
+# My wonderful pizza
+
+An amazing surprise of the dev team dedicated just to your fancy
+thirst for fortune and originality.
+```
+:::
+::::
+
+
+
+<br>
+
+{{< fa hand-point-right >}} &nbsp;You have to decide which version you want to keep.
+
