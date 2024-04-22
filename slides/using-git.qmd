@@ -257,7 +257,6 @@ Which files? For instance:
 
 - passwords, tokens and other secrets
 - temporary files
-- build files
 - large files
 
 :::
@@ -361,10 +360,6 @@ A commit message has a title line, and an optional body
 ```bash
 # Commit message w/ title
 git commit -m "title"
-
-# Commit message w/ title and body (optional)
-git commit -m "title" -m "body"
-
 ```
 
 
@@ -410,9 +405,9 @@ An **optional body** can be added to provide **detailed information** and to lin
 :::{.column width=50%}
 <br>
 
-- Commit a new version when you reach a milestone
-- Create small and atomic commits
-- Commit a state that is actually working
+- Commit a new version when you reach a **milestone**
+- Create **small** and atomic commits
+- Commit a state that is actually **working**
 :::
 ::::
 

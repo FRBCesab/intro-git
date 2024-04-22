@@ -110,6 +110,11 @@ In other words:
 > You do not need `GitHub` to use `git` but you cannot use `GitHub` without using `git`
 
 
+## git as a CLI
+
+![](img/git-cli.png){fig-align="center" width=60%}
+
+
 
 ## RStudio and git
 
