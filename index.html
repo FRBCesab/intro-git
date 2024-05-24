@@ -10,7 +10,7 @@
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.553">
+  <meta name="generator" content="quarto-1.4.554">
 
   <title>index</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -408,7 +408,7 @@
 <p>Introduction to git &amp; GitHub</p>
 </div>
 <div class="date">
-<p>April 2024</p>
+<p>May 2024</p>
 </div>
 <div class="columns">
 <div class="column author" style="width:45%;">
@@ -766,20 +766,72 @@ Camille Coux<br/>
 </section>
 <section id="the-status-of-a-file" class="slide level2">
 <h2>The status of a file</h2>
-<p><br></p>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="img/git-file-lifecycle.png" class="quarto-figure quarto-figure-center" style="width:50.0%"></p>
+<p><img data-src="img/git-file-lifecycle-0.png" class="quarto-figure quarto-figure-center" style="width:50.0%"></p>
 </figure>
 </div>
-<p><br></p>
-<p>With <code>git</code> a file can be <strong>untracked</strong> or <strong>tracked</strong><sup>1</sup>. If it’s tracked it can be:</p>
+<p>With <code>git</code> a file can be <strong>untracked</strong> or <strong>tracked</strong><sup>1</sup>. If it’s <strong>tracked</strong>, it can be:</p>
 <ul>
 <li>unmodified</li>
-<li>modified and unstaged</li>
+<li>modifed and unstaged</li>
 <li>modified and staged</li>
 </ul>
 <aside><ol class="aside-footnotes"><li id="fn1"><p><a href="https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository" class="uri">https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository</a></p></li></ol></aside></section>
+<section id="the-status-of-a-file-1" class="slide level2">
+<h2>The status of a file</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/git-file-lifecycle-1.png" class="quarto-figure quarto-figure-center" style="width:50.0%"></p>
+</figure>
+</div>
+<p>When you create a new file, by default it’s <strong>untracked</strong>.</p>
+</section>
+<section id="the-status-of-a-file-2" class="slide level2">
+<h2>The status of a file</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/git-file-lifecycle-2.png" class="quarto-figure quarto-figure-center" style="width:50.0%"></p>
+</figure>
+</div>
+<p>To tell <code>git</code> to <strong>track</strong> this new file, you have to <strong>stage</strong> it.</p>
+</section>
+<section id="the-status-of-a-file-3" class="slide level2">
+<h2>The status of a file</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/git-file-lifecycle-3.png" class="quarto-figure quarto-figure-center" style="width:50.0%"></p>
+</figure>
+</div>
+<p>After <strong>commiting</strong> your changes, the file becomes <strong>unmodified</strong> (up-to-date with the latest version).</p>
+</section>
+<section id="the-status-of-a-file-4" class="slide level2">
+<h2>The status of a file</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/git-file-lifecycle-4.png" class="quarto-figure quarto-figure-center" style="width:50.0%"></p>
+</figure>
+</div>
+<p>If you edit <strong>tracked file</strong>, it becomes <strong>modified</strong>.</p>
+</section>
+<section id="the-status-of-a-file-5" class="slide level2">
+<h2>The status of a file</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/git-file-lifecycle-5.png" class="quarto-figure quarto-figure-center" style="width:50.0%"></p>
+</figure>
+</div>
+<p>When you decide to create a new version, <strong>stage</strong> the <strong>modified</strong> file.</p>
+</section>
+<section id="the-status-of-a-file-6" class="slide level2">
+<h2>The status of a file</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/git-file-lifecycle-6.png" class="quarto-figure quarto-figure-center" style="width:50.0%"></p>
+</figure>
+</div>
+<p>After <strong>commiting</strong> your changes, the file becomes <strong>unmodified</strong> (up-to-date with the latest version).</p>
+</section>
 <section id="the-.gitignore" class="slide level2">
 <h2>The <code>.gitignore</code></h2>
 <p><i class="fa-solid fa-hand-point-right" aria-label="hand-point-right"></i> &nbsp;We can also tell <code>git</code> to <strong>ignore specific files</strong>: it’s the purpose of the <code>.gitignore</code> file</p>
@@ -809,7 +861,6 @@ Camille Coux<br/>
 <ul>
 <li>passwords, tokens and other secrets</li>
 <li>temporary files</li>
-<li>build files</li>
 <li>large files</li>
 </ul>
 </div><div class="column" style="width:50%;">

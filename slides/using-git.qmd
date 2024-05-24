@@ -223,23 +223,77 @@ git status
 :::
 ::::
 
-
 ## The status of a file
 
-<br>
 
-![](img/git-file-lifecycle.png){width=50% fig-align="center"}
+![](img/git-file-lifecycle-0.png){width=50% fig-align="center"}
 
-<br>
 
-With `git` a file can be **untracked** or **tracked**[^changes]. If it's tracked it can be:
+With `git` a file can be **untracked** or **tracked**[^changes]. If it's **tracked**, it can be:
 
 - unmodified
-- modified and unstaged
+- modifed and unstaged
 - modified and staged
 
 
 [^changes]: <https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository>
+
+
+## The status of a file
+
+
+![](img/git-file-lifecycle-1.png){width=50% fig-align="center"}
+
+
+When you create a new file, by default it's **untracked**.
+
+
+
+## The status of a file
+
+
+![](img/git-file-lifecycle-2.png){width=50% fig-align="center"}
+
+
+To tell `git` to **track** this new file, you have to **stage** it.
+
+
+## The status of a file
+
+
+![](img/git-file-lifecycle-3.png){width=50% fig-align="center"}
+
+
+After **commiting** your changes, the file becomes **unmodified** (up-to-date with the latest version).
+
+
+## The status of a file
+
+
+![](img/git-file-lifecycle-4.png){width=50% fig-align="center"}
+
+
+If you edit the **tracked** file, it becomes **modified**.
+
+
+## The status of a file
+
+
+![](img/git-file-lifecycle-5.png){width=50% fig-align="center"}
+
+
+When you decide to create a new version, **stage** the **modified** file.
+
+
+## The status of a file
+
+
+![](img/git-file-lifecycle-6.png){width=50% fig-align="center"}
+
+
+After **commiting** your changes, the file becomes **unmodified** (up-to-date with the latest version).
+
+
 
 
 
@@ -278,7 +332,6 @@ Which files? For instance:
 
 - passwords, tokens and other secrets
 - temporary files
-- build files
 - large files
 
 :::
